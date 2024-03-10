@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            SizedBox(height: 80,),
+            SizedBox(height: 10,),
             Padding(padding: EdgeInsets.all(20),
             child: Column(
               children: <Widget>[
@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
               ],
             ),
             ),
-            SizedBox(height: 15,),
+            SizedBox(height: 10,),
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
                           child: Text("Login", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
                         ),
                       ),
-                      SizedBox(height: 80,),
+                      SizedBox(height: 50,),
                       Row(
                         children: <Widget>[
                           Expanded(
@@ -112,6 +112,7 @@ class HomePage extends StatelessWidget {
                               ),
                             ),
                           ),
+                          SizedBox(width: 40,),
                           Expanded(
                             child: Container(
                               height: 50,
