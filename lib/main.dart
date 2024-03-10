@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
                           child: Text("Login", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
                         ),
                       ),
-                      SizedBox(height: 50,),
+                      SizedBox(height: 15,),
                       Text("Continue with social media ", style: TextStyle(color:Colors.grey),),
                       SizedBox(height: 10,),
                       Row(
