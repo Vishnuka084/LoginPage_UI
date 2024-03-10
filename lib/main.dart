@@ -48,14 +48,24 @@ class HomePage extends StatelessWidget {
                   padding: EdgeInsets.all(20),
                   child: Column(
                     children: <Widget>[
+                      SizedBox(height: 50,),
                       Container(
                         padding: EdgeInsets.all(20),
                         decoration: BoxDecoration(
                           color: Colors.white,
+                          borderRadius: BorderRadius.circular(15),
                           boxShadow: [BoxShadow(
-                            color: Color.fromARGB(225, 95, 27, 3)
+                            color: Color.fromARGB(223, 238, 146, 92),
+                            blurRadius: 20,
+                            offset: Offset(0, 10)
                           )]
                         ),
+                        child: Column(
+                          children: <Widget>[
+                            Container(
+
+                            )
+                          ]),
                       )
                     ]),
                 ),
