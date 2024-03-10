@@ -112,6 +112,9 @@ class HomePage extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(50),
                                 color: Colors.blue 
                               ),
+                              child: Center(
+                                  child: Text("Facebook", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                              ),
                             ),
                           ),
                           SizedBox(width: 40,),
@@ -121,6 +124,9 @@ class HomePage extends StatelessWidget {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(50),
                                 color: Colors.black 
+                              ),
+                              child: Center(
+                                  child: Text("GitHub", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
                               ),
                             ),
                           ),
