@@ -101,6 +101,8 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       SizedBox(height: 50,),
+                      Text("Continue with social media ", style: TextStyle(color:Colors.grey),),
+                      SizedBox(height: 10,),
                       Row(
                         children: <Widget>[
                           Expanded(
