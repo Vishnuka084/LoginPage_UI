@@ -45,12 +45,11 @@ class HomePage extends StatelessWidget {
                   borderRadius: BorderRadius.only(topLeft: Radius.circular(60),topRight: Radius.circular(60))
                 ),
                 child: Padding(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(30),
                   child: Column(
                     children: <Widget>[
                       SizedBox(height: 50,),
                       Container(
-                        padding: EdgeInsets.all(20),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(15),
@@ -63,11 +62,42 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           children: <Widget>[
                             Container(
-
-                            )
-                          ]),
+                              padding: EdgeInsets.all(10),
+                              decoration: BoxDecoration(
+                                border: Border(bottom: BorderSide(color: Color.fromARGB(226, 223, 205, 205)))
+                              ),
+                              child: TextField(decoration: InputDecoration(hintText: "Email or Phone number",
+                                      hintStyle: TextStyle(color: Colors.grey),
+                                      border: InputBorder.none                    
+                                  ),
+                              ),
+                            ),
+                             Container(
+                              padding: EdgeInsets.all(10),
+                              decoration: BoxDecoration(
+                                border: Border(bottom: BorderSide(color: Color.fromARGB(226, 223, 205, 205)))
+                              ),
+                              child: TextField(decoration: InputDecoration(hintText: "Password",
+                                      hintStyle: TextStyle(color: Colors.grey),
+                                      border: InputBorder.none                    
+                                  ),
+                              ),
+                            ),
+                         ]
+                        ),
+                      ),
+                      SizedBox(height: 40,),
+                      Text("Forgot Password ?", style: TextStyle(color:Colors.grey),),
+                      SizedBox(height: 40,),
+                      Container(
+                        height: 50,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50),
+                          color: Colors.orange[900]  
+                        ),
                       )
-                    ]),
+                    ],
+                  ),
                 ),
               ), 
             )  
