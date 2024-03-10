@@ -25,9 +25,12 @@ class HomePage extends StatelessWidget {
           ) 
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text("Login", style: TextStyle(color: Colors.white),)
-          ]),
+            SizedBox(height: 80,),
+            Text("Login", style: TextStyle(color: Colors.white, fontSize: 40),)
+          ,]
+        ),
       ),
     );
   }
