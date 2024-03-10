@@ -91,10 +91,37 @@ class HomePage extends StatelessWidget {
                       SizedBox(height: 40,),
                       Container(
                         height: 50,
+                        margin: EdgeInsets.symmetric(horizontal: 50),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(50),
                           color: Colors.orange[900]  
                         ),
+                        child: Center(
+                          child: Text("Login", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                        ),
+                      ),
+                      SizedBox(height: 80,),
+                      Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(50),
+                                color: Colors.blue 
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(50),
+                                color: Colors.black 
+                              ),
+                            ),
+                          ),
+                        ],
                       )
                     ],
                   ),
