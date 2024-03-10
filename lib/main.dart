@@ -23,6 +23,10 @@ class HomePage extends StatelessWidget {
             ]
           ) 
         ),
+        child: Column(
+          children: <Widget>[
+            Text("Login", style: TextStyle(color: Colors.white),)
+          ]),
       ),
     );
   }
