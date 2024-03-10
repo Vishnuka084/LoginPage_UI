@@ -13,7 +13,16 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            colors: [
+              const Color.fromARGB(255, 221, 60, 11),
+              Color.fromARGB(255, 238, 116, 16),
+              Color.fromARGB(255, 241, 164, 20)
+            ]
+          ) 
+        ),
       ),
     );
   }
