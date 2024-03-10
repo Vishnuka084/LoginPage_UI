@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_page/Animation/FadeAnimation.dart';
 
 void main() => runApp(
   MaterialApp(
@@ -31,9 +32,9 @@ class HomePage extends StatelessWidget {
             Padding(padding: EdgeInsets.all(20),
             child: Column(
               children: <Widget>[
-                Text("Login", style: TextStyle(color: Colors.white, fontSize: 40),),
+                FadeAnimation(1, Text("Login", style: TextStyle(color: Colors.white, fontSize: 40),),) ,
                 SizedBox(height: 10,),
-                Text("    Welcome Back", style: TextStyle(color: Colors.white, fontSize: 18),),
+                FadeAnimation(1.3 , Text("    Welcome Back", style: TextStyle(color: Colors.white, fontSize: 18),),) ,
               ],
             ),
             ),
